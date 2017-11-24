@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="427.0" prefWidth="472.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Metodos">
+    <children>
+        <Button fx:id="generar" layoutX="11.0" layoutY="102.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="117.0" text="Insertar" />
+        <TextField fx:id="cantidad" layoutX="11.0" layoutY="63.0" prefHeight="30.0" prefWidth="269.0" promptText="Insertar elemento">
+            <font>
+                <Font size="14.0" />
+            </font></TextField>
+        <TableView layoutX="11.0" layoutY="151.0" prefHeight="138.0" prefWidth="455.0">
+            <columns>
+                <TableColumn prefWidth="46.0" text="C1" />
+            </columns>
+        </TableView>
+        <Button layoutX="15.0" layoutY="297.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="59.0" text="Extraer" />
+        <Button fx:id="buscarbtn" layoutX="396.0" layoutY="373.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="71.0" text="BUSCAR" />
+        <TextField fx:id="buscartxt" layoutX="247.0" layoutY="373.0" />
+        <Label layoutX="257.0" layoutY="344.0" text="Escribe un nùmero a buscar">
+            <font>
+                <Font name="System Bold Italic" size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="69.0" layoutY="20.0" prefHeight="17.0" prefWidth="334.0" text="Operaciones cola">
+            <font>
+                <Font size="31.0" />
+            </font>
+        </Label>
+      <Button layoutX="16.0" layoutY="332.0" mnemonicParsing="false" text="Tamaño" />
+      <Button layoutX="20.0" layoutY="373.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="59.0" text="Vaciar" />
+    </children>
+</AnchorPane>
